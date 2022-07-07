@@ -15,7 +15,7 @@ class MainWindow(Ui_MainWindow, QMainWindow):
         self.set_table()
 
     def set_table(self):
-        # TODO 设置表格
+        # 设置表格
         self.table_size = self.spinBox.value()
         self.tableWidget.setRowCount(self.table_size)
         self.tableWidget.setColumnCount(self.table_size)
